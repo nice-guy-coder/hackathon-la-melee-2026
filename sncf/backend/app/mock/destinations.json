@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cite-espace",
+    "name": "Cité de l'Espace",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "themes": ["science", "space", "culture"],
+    "accessible": true,
+    "description": "Centre de culture scientifique dédié à l'espace et à l'astronomie."
+  },
+  {
+    "id": "museum-toulouse",
+    "name": "Muséum de Toulouse",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "themes": ["nature", "science", "history"],
+    "accessible": true,
+    "description": "Muséum d'histoire naturelle avec collections de sciences et de biodiversité."
+  },
+  {
+    "id": "carcassonne-cite",
+    "name": "Cité médiévale de Carcassonne",
+    "city": "Carcassonne",
+    "region": "Occitanie",
+    "themes": ["history", "culture", "patrimoine"],
+    "accessible": true,
+    "description": "Ensemble fortifié médiéval classé au patrimoine mondial."
+  },
+  {
+    "id": "albi-cathedral",
+    "name": "Cité épiscopale d'Albi",
+    "city": "Albi",
+    "region": "Occitanie",
+    "themes": ["history", "culture", "arts"],
+    "accessible": false,
+    "description": "Cathédrale et palais historique, site classé au patrimoine mondial."
+  },
+  {
+    "id": "sidobre",
+    "name": "Forêt du Sidobre",
+    "city": "Castres",
+    "region": "Occitanie",
+    "themes": ["nature", "geology", "sport"],
+    "accessible": false,
+    "description": "Paysage granitique et sentiers de randonnée pour les sorties nature."
+  },
+  {
+    "id": "cinematheque",
+    "name": "Cinémathèque de Toulouse",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "themes": ["culture", "arts", "cinema"],
+    "accessible": true,
+    "description": "Musée du cinéma et ateliers d'éducation à l'image."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "weights": {
+    "educational_match": 0.30,
+    "reliability": 0.20,
+    "journey_simplicity": 0.20,
+    "group_suitability": 0.15,
+    "cost": 0.10,
+    "accessibility": 0.05
+  },
+  "pricing": {
+    "student_discount_pct": 20,
+    "min_group_for_discount": 15
+  },
+  "default_max_group_size": 80
+}
