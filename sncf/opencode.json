@@ -9,8 +9,8 @@
         "apiKey": "ollama"
       },
       "models": {
-        "qwen3:14b": { "name": "Qwen3 14B - USE THIS" }
-      }
+  "qwen3:14b": { "name": "Qwen3 THINKING - hard tasks only" }
+}
     }
   }
 }
