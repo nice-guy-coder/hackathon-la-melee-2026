@@ -5,12 +5,24 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Ollama Local",
       "options": {
-        "baseURL": "http://localhost:11434/v1",
+        "baseURL": "http://127.0.0.1:11434/v1",
         "apiKey": "ollama"
       },
       "models": {
-  "qwen3:14b": { "name": "Qwen3 THINKING - hard tasks only" }
-}
+        "qwen3-coder:30b": {
+          "name": "Qwen3 Coder 30B",
+          "tool_call": false,
+          "limit": { "context": 32768, "output": 8192 },
+          "cost": { "input": 0, "output": 0 }
+        },
+        "qwen3:14b": {
+          "name": "Qwen3 14B",
+          "tool_call": false,
+          "limit": { "context": 32768, "output": 8192 },
+          "cost": { "input": 0, "output": 0 }
+        }
+      }
     }
-  }
+  },
+  "model": "ollama/qwen3-coder:30b"
 }
