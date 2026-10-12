@@ -9,7 +9,7 @@
         "apiKey": "ollama"
       },
       "models": {
-        "qwen2.5-coder:14b": { "name": "Qwen 14B - 4080" }
+        "qwen3:14b": { "name": "Qwen3 14B - USE THIS" }
       }
     }
   }
