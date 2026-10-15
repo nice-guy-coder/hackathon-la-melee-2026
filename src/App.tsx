@@ -6,10 +6,11 @@ import RecommendationPage from './pages/RecommendationPage'
 import ComparePage from './pages/ComparePage'
 import FavoritesPage from './pages/FavoritesPage'
 import DestinationDetailsPage from './pages/DestinationDetailsPage'
-import Dashboard from './pages/Dashboard'
+import Dashboard from './pages/DashboardPage'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { DarkModeProvider } from './contexts/DarkModeContext'
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -45,6 +46,7 @@ function App() {
               <Route path="/favorites" element={<FavoritesPage />} />
               <Route path="/destination/:id" element={<DestinationDetailsPage />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>
           <Footer />
